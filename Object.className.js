@@ -1,4 +1,4 @@
-import "javascripts/utils/polyfill.Function.name";
+import "./polyfill.Function.name";
 
 Object.defineProperty(Object.prototype, 'className', {
   enumerable: false,
