@@ -34,7 +34,8 @@
     "url": "https://github.com/trusktr/army-knife/issues"
   },
   "homepage": "https://github.com/trusktr/army-knife",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "6to5": "^3.0.15"
   }
 }
