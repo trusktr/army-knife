@@ -1,6 +1,6 @@
 {
   "name": "army-knife",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A bunch of utilities.",
   "format": "es6",
   "main": "army-knife.js",
