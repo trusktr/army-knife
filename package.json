@@ -42,6 +42,7 @@
     "registry": "npm",
     "directories": {
       "lib": "src"
-    }
+    },
+    "dependencies": {}
   }
 }
