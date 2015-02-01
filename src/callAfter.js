@@ -4,7 +4,7 @@ function callAfter(times, callback) {
     return function() {
         if (++count == times) {
             if (typeof callback == 'function') {
-                callback();
+                callback.apply(this, arguments);
             }
         }
     };
