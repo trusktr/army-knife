@@ -7,11 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf ./*.js ./*.js.map",
-    "postinstall": "npm run build-cjs",
+    "build": "npm run build-cjs",
     "build-umd": "6to5 src --source-maps --out-dir . --modules umd",
     "build-cjs": "6to5 src --source-maps --out-dir . --modules common",
     "build-amd": "6to5 src --source-maps --out-dir . --modules amd",
-    "build-global": "echo 'TODO: Global build' && exit 1"
+    "build-global": "echo 'TODO: Global build' && exit 1",
+    "publish": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -34,15 +35,13 @@
     "url": "https://github.com/trusktr/army-knife/issues"
   },
   "homepage": "https://github.com/trusktr/army-knife",
-  "devDependencies": {},
-  "dependencies": {
-    "6to5": "^3.0.15"
+  "devDependencies": {
+    "6to5": "^3.3.3"
   },
   "jspm": {
     "registry": "npm",
     "directories": {
       "lib": "src"
-    },
-    "dependencies": {}
+    }
   }
 }
