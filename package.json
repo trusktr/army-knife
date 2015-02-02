@@ -6,7 +6,7 @@
   "main": "army-knife.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf ./*.js ./*.js.map",
+    "clean": "mv army-knife.js army-knife.save && rm -rf ./*.js ./*.js.map && mv army-knife.save army-knife.js",
     "prepublish": "npm run build-cjs",
     "build-umd": "6to5 src --source-maps --out-dir . --modules umd",
     "build-cjs": "6to5 src --source-maps --out-dir . --modules common",
