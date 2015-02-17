@@ -16,4 +16,4 @@ export function stringsToNums(arr) {
    });
    return result;
 }
-export {stringsToNums as default};
+export default stringsToNums;

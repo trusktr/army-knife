@@ -9,4 +9,4 @@ function callAfter(times, callback) {
         }
     };
 }
-export {callAfter as default};
+export default callAfter;

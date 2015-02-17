@@ -5,4 +5,4 @@ export function forLength(length, action) {
         action(i);
     }
 }
-export {forLength as default};
+export default forLength;

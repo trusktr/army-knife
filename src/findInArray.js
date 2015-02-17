@@ -8,4 +8,4 @@ export function findInArray (arr, callback) {
     });
     return results;
 }
-export {findInArray as default};;
+export default findInArray;
